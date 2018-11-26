@@ -1,0 +1,378 @@
+ls
+cd Repos
+ls
+cd csvkit
+cd
+git config --global user.name "Israel Herraiz"
+git config --global user.email ihr@google.com
+ls
+ls .gitconfig
+ls -l .gitconfig
+cat .gitconfig
+cd
+cd Repos
+ls
+git clone https://github.com/iht/master-data-science-12.git
+ls
+cd master-data-science-12
+ls
+gedit README.md
+git status
+git add README.md
+git status
+git commit -m "Mi primer commit"
+git status
+git push
+git pull
+git status
+cat README.md
+git pull
+cat README.md
+whoami
+echo $HOST
+echo Hola
+printenv
+printenv HOST
+echo $HOST
+printenv $HOST
+printenv HISTORY
+echo "This is \
+long one"
+echo "World \\
+is mine"
+echo "World \\
+
+echo "world" \\
+"is mine too"
+echo one echo two
+echo one \; echo two
+echo one \;\ echo two
+echo one \;\\ echo two
+cat /etc/os-release
+cat -n /etc/os-release
+pwd
+echo $HOME
+cd Data/shell/
+cat Text_example.txt
+cat Data/shell/Text_example.txt
+cat ~/Data/shell/Text_example.txt
+cat /home/dsc/Data/shell/Text_example.txt
+ls
+cd ..
+cd opentraveldata
+cat ../shell/Text_example.txt
+cd
+cd -
+ls
+cd
+cd  ./Data/airline_tickets
+cd
+cd Repos
+git init testing
+cd testing
+cd
+git init error
+git init
+cd Repos
+cd master-data-science-12
+cd
+rm -rf .git
+ls 
+ls -1
+ls -s
+ls -s -1
+ls -s1
+ls -1s
+ls -a
+ls -l
+ls -la
+ls -l
+cd Documents
+ll
+ls
+cd ./
+cd ../
+ls -l
+mkdir one
+cd one
+ls
+cd ./
+cd ../
+ls -l one
+ls -l one/
+ls -l
+ls -l ./one
+ls -dl ./one
+cd one
+touch onefile
+cd ..
+ls -dl ./one
+cd one
+mkdir otrodir
+cd ..
+ls -dl ./one
+cd ..
+cd
+ls -l
+ls -s
+ls -sS
+ls -sX
+ls -X
+ls -sSr
+ls -sXr
+ls -str
+ls -tr
+ls -t
+ls -lt
+cd Data/shell
+ls
+ls -l Text_example.txt
+chmod u-x,g+rwx,o+r-x Text_example.txt
+ls -l Text_example.txt
+chmod 777 Text_example.txt
+ls -l Text_example.txt
+cd
+cd one
+ls
+rm -rf onefile otrodir
+ll
+ls
+mkdir two/three/four
+mkdir -p two/three/four
+ls
+cd two
+ls
+cd ..
+ls -l 
+mkdir a b c
+ls
+cd ./two
+cd ..
+cd two
+cd ..
+bash
+cd Repos/
+cd master-data-science-12/
+exit
+touch file
+ls
+ls -l file
+ls -l hello-world
+touch hello-world
+ls -l hello-world
+touch 2018-05-05.CL.sql
+ls -l 2018-05-05.CL.sql
+cd one
+ll
+touch file_to_copy
+la
+ls
+cp file_to_copy new_file
+ls
+cp -r two copy_of_two
+ls
+cd copy_of_two
+ls
+cd ..
+cp file_to_copy new_file twofgjhjhgjhg
+cp file_to_copy new_file two
+ls -l 
+chmod 777 new_file
+ls -l 
+cp new_file new_file_copy
+ls -l 
+cp -p new_file new_file_copy2
+ls -l 
+history
+cp -r file_to_copy file_2
+ll
+mv two new_two
+ls
+mv new_file old_file
+ls
+rm -rf new_file_copy a b
+rm old_file
+rm -rf file_2
+rm -rf jlkjlkjlkj
+rm -r jlkjlkjlkj
+history -1
+cd
+rm -rf first_dir
+mkdir first_dir
+touch first_dir/text_file.txt
+cd first_dir
+ls -l 
+chmod 712 text_file.txt
+ls -l 
+rm -rf text_file.txt
+touch text_file.txt
+chmod g+x,o+w text_file.txt
+ls -l 
+mkdir sub1 sub2 text_file
+ls
+cp text_file.txt sub1
+mv text_file.txt sub2/text_file.txt.2
+cp -r sub1 sub3
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+ls
+ls -a
+rm -rf sub2
+ls
+cd ..
+cd Data/shell
+more text_for_permissons
+more numbers.txt
+cat Finn.txt
+less Finn.txt
+cat
+less Finn.txt
+less -n Finn.txt
+less -N Finn.txt
+man bash
+man -N bash
+man bash
+sudo apt-get install tree
+tree
+ll
+la
+alias
+cd
+less .zshrc
+alias gs='git status'
+cd Repos/master-data-science-12
+gs
+cd
+less .bashrc
+bash
+cd Repos/master-data-science
+exit
+cat .profile
+type bash
+type ll
+type cd
+type ls 
+type ls la 
+which ls
+which cd
+which pyht
+which python
+su
+sudo which python
+which pip
+sudo which pip
+whereis python
+echo $PATH
+hgfkjhdfkjghdkjghkdfjhg
+less 2018-05-05.CL.sql 
+cd Repos
+cat -n /etc/os-release
+cd
+history 
+history -100
+echo "Hello world"
+echo "Hello world" > hello_file
+cat hello-world
+echo "Hello world" > hello_file
+cat hello-world
+echo "Hello world" >> hello_file
+cat hello-world
+cat hello_file
+wc hello_file
+wc -l hello_file
+wc -w hello_file
+wc -c hello_file
+cat hello_file 
+cat hello_file | wc
+cat hello_file | wc >>size_of_file.txt
+cd Data/shell
+head Finn.txt
+cat -n Finn.txt
+cat -n Finn.txt | head
+cat -n Finn.txt | head -n 20
+cat -n Finn.txt | head -n -20
+cat -n Finn.txt | head -n -12340
+tail Finn.txt
+cat -n Finn.txt | tail
+cat -n Finn.txt | tail -n 5
+cat -n Finn.txt | tail -n -5
+cat -n Finn.txt | tail -n +5
+cat -n ./Text_example.txt | tail -n -5
+cat -n ./Text_example.txt | tail -n +5
+cat -n ./Text_example.txt | head -n -2
+cd 
+cd Data/us_dot/otp
+ls 
+ls -sS
+ls -sS1
+ls -sS1 | head -3
+ls -S
+ls -S1
+ls -S1 | head -3
+ls -S1 | head -3 >> 3_largest.txt
+ls -S1 | head -3 > 3_largest.txt
+cd
+cat .history
+cat .history | tail -n 20
+cat .history | tail -n 20 > last_20.txt
+cd -
+ls -sS1
+ls -sS1 |head -4 | tail -3
+cd ../../shell
+head -3 Text_example.txt
+cat -n Text_example.txt | head -n -3
+cat -n Text_example.txt | head -n -3 | tail -n +3
+echo 'HELLO'
+echo "HELLO"
+echo "HELLO $HOST"
+echo 'HELLO $HOST'
+echo `date`
+date
+echo "date"
+echo "$(date)"
+echo `texto date`
+echo "texto $(date)"
+cd
+find 
+cd -
+find
+find .
+cd
+find . -name "text_file*"
+find . -name "text_file*" -type d
+find . -name "text_file*" -type f
+find . -iname "tExt_file*" -type f
+find . -name "tExt_file*" -type f
+find . -iname "tExt_file*" -type f
+find  -iname "tExt_file*" -type f
+find first_dir -iname "tExt_file*" -type f
+find -iname "tExt_file*" first_dir -type f
+find -iname "tExt_file*" -type f -maxdepth 7
+find -maxdepth 7 -iname "tExt_file*" -type f 
+find -maxdepth 7 mindepth 3 -iname "tExt_file*" -type f 
+find -maxdepth 7 -mindepth 3 -iname "tExt_file*" -type f 
+find -maxdepth 7 -mindepth 4 -iname "tExt_file*" -type f 
+find -perm 777 -iname "tExt_file*" -type f 
+find -perm 777 -iname "tExt_file*" -
+find -perm 777 -iname "tExt_file*"
+find  -iname "tExt_file*"
+ls -l ./first_dir/sub1/text_file.txt\
+
+ls -l ./first_dir/sub3/text_file.txt\
+
+find -size -10M -iname "tExt_file*"
+find -size -4k -iname "tExt_file*"
+find -size +4k -iname "tExt_file*"
+find -size 0k -iname "tExt_file*"
+find -empty -iname "tExt_file*"
+find . -mmin -60
+find -size -10M -iname "tExt_file*"
+find -size -4k -iname "tExt_file*"
+find -size -4k -iname "tExt_file*" -exec echo "FOUND" \;
+find -size -4k -iname "tExt_file*" -exec echo "FOUND" \; -exec ls -l {} \;
+ls -l ./Data/shell/zipped/text_files.zip
+find -size -4k -iname "tExt_file*" -exec echo "FOUND" \; -exec ls -l {} | wc \;
+find -size -4k -iname "tExt_file*" -exec echo "FOUND" \; -exec sh -c "ls -l {} | wc" \;
+awcat
+cd
+cat .history > 2018-11-24.txt
